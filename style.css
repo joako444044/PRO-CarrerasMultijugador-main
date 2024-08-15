@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title{
+    width:80%;
+    
+}
+
+.input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+.button{
+    border-color: rgba(65, 47, 25, 0.956);
+    background-color: rgb(255, 140, 0);
+    border-radius: 5px;
+    color:white;
+    width: 100px;
+    height: 40px;
+    
+}
+.message{
+    color: antiquewhite;
+    text-align: start;
+    font-family: fantasy;
+    -webkit-text-stroke: black 1px;
+    font-size: 50px;
+}
+.small{
+    width:15%;
+    height: 40px;
+}
+
+.sc_title{
+    color: red;
+    -webkit-text-stroke: rgb(255, 255, 255) 2px;
+    font-size: 24px;
+    
+}
+
+.scs{
+    color: red;
+    -webkit-text-stroke: rgb(255, 255, 255) 1px;
+    font-size: 18px;
+
+}
+.reiniciar{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}

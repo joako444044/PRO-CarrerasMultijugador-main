@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css" rel="stylesheet">
+    <title>carreras con amigos</title>
+    <link rel="shorecut icon" type="image/x-icon" href="./assets/car1.png">
+    <script>
+        const firebaseConfig = {
+    apiKey: "AIzaSyA_MU2IZzMK19bM0-_v5qaESX2-Jx6Iolg",
+    authDomain: "pelota-e3b78.firebaseapp.com",
+    databaseURL: "https://pelota-e3b78-default-rtdb.firebaseio.com",
+    projectId: "pelota-e3b78",
+    storageBucket: "pelota-e3b78.appspot.com",
+    messagingSenderId: "61800306417",
+    appId: "1:61800306417:web:1be23f3210b9440ec43b50"
+  };
+firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <script src="sesion.js"></script>
+    <script src = "jugador.js"></script>
+    <script src="juego.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
